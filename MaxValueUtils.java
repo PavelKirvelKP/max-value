@@ -18,7 +18,7 @@ public class MaxValueUtils {
 
 
 	public int getSecondMaxValue(List<Integer> inputValues) {
-		if (inputValues.isEmpty() || inputValues.size() < 2) {
+		if (inputValues.size() < 2) {
 			return 0;
 		}
 		int max;
